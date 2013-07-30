@@ -14,14 +14,18 @@
 		5A33F36617A67F340015BF2F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F35C17A67F340015BF2F /* Default-568h@2x.png */; };
 		5A33F36717A67F340015BF2F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F35D17A67F340015BF2F /* Default.png */; };
 		5A33F36817A67F340015BF2F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F35E17A67F340015BF2F /* Default@2x.png */; };
-		5A33F36917A67F340015BF2F /* SampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F36017A67F340015BF2F /* SampleViewController.xib */; };
 		5A33F36A17A67F340015BF2F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A33F36217A67F340015BF2F /* InfoPlist.strings */; };
 		5A33F36B17A67F340015BF2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F36417A67F340015BF2F /* main.m */; };
 		5A33F37117A67F720015BF2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F36E17A67F720015BF2F /* AppDelegate.m */; };
 		5A33F37217A67F720015BF2F /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F37017A67F720015BF2F /* SampleViewController.m */; };
+		5A33F38017A7DDE10015BF2F /* APTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F37F17A7DDE10015BF2F /* APTableViewController.m */; };
+		5A33F38317A7E9700015BF2F /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A33F38217A7E96F0015BF2F /* Beer.m */; };
+		94852DCD2F3146CFBCB3D397 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7178354B124AF69DB70C53 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D7E8EB6C1A94D9AA6FE32C1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		3D7178354B124AF69DB70C53 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A33F33417A67EC20015BF2F /* APTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A33F33717A67EC20015BF2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5A33F33917A67EC20015BF2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -31,13 +35,16 @@
 		5A33F35C17A67F340015BF2F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
 		5A33F35D17A67F340015BF2F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
 		5A33F35E17A67F340015BF2F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
-		5A33F36117A67F340015BF2F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = SampleViewController.xib; sourceTree = "<group>"; };
 		5A33F36317A67F340015BF2F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		5A33F36417A67F340015BF2F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		5A33F36D17A67F720015BF2F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		5A33F36E17A67F720015BF2F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		5A33F36F17A67F720015BF2F /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = SOURCE_ROOT; };
 		5A33F37017A67F720015BF2F /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = SOURCE_ROOT; };
+		5A33F37E17A7DDE10015BF2F /* APTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTableViewController.h; sourceTree = "<group>"; };
+		5A33F37F17A7DDE10015BF2F /* APTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTableViewController.m; sourceTree = "<group>"; };
+		5A33F38117A7E96F0015BF2F /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = SOURCE_ROOT; };
+		5A33F38217A7E96F0015BF2F /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +55,7 @@
 				5A33F33817A67EC20015BF2F /* UIKit.framework in Frameworks */,
 				5A33F33A17A67EC20015BF2F /* Foundation.framework in Frameworks */,
 				5A33F33C17A67EC20015BF2F /* CoreGraphics.framework in Frameworks */,
+				94852DCD2F3146CFBCB3D397 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +68,7 @@
 				5A33F33D17A67EC20015BF2F /* APTableViewDemo */,
 				5A33F33617A67EC20015BF2F /* Frameworks */,
 				5A33F33517A67EC20015BF2F /* Products */,
+				0D7E8EB6C1A94D9AA6FE32C1 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +86,7 @@
 				5A33F33717A67EC20015BF2F /* UIKit.framework */,
 				5A33F33917A67EC20015BF2F /* Foundation.framework */,
 				5A33F33B17A67EC20015BF2F /* CoreGraphics.framework */,
+				3D7178354B124AF69DB70C53 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +94,7 @@
 		5A33F33D17A67EC20015BF2F /* APTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5A33F37D17A7DDE10015BF2F /* Classes */,
 				5A33F36C17A67F4A0015BF2F /* Sample */,
 				5A33F33E17A67EC20015BF2F /* Supporting Files */,
 			);
@@ -107,7 +118,6 @@
 		5A33F35F17A67F340015BF2F /* en.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				5A33F36017A67F340015BF2F /* SampleViewController.xib */,
 				5A33F36217A67F340015BF2F /* InfoPlist.strings */,
 			);
 			path = en.lproj;
@@ -120,9 +130,20 @@
 				5A33F36E17A67F720015BF2F /* AppDelegate.m */,
 				5A33F36F17A67F720015BF2F /* SampleViewController.h */,
 				5A33F37017A67F720015BF2F /* SampleViewController.m */,
+				5A33F38117A7E96F0015BF2F /* Beer.h */,
+				5A33F38217A7E96F0015BF2F /* Beer.m */,
 			);
 			name = Sample;
 			sourceTree = "<group>";
+		};
+		5A33F37D17A7DDE10015BF2F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5A33F37E17A7DDE10015BF2F /* APTableViewController.h */,
+				5A33F37F17A7DDE10015BF2F /* APTableViewController.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -131,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A33F35717A67EC20015BF2F /* Build configuration list for PBXNativeTarget "APTableViewDemo" */;
 			buildPhases = (
+				E6C1B72AABCA48BCB6B0DBDF /* Check Pods Manifest.lock */,
 				5A33F33017A67EC20015BF2F /* Sources */,
 				5A33F33117A67EC20015BF2F /* Frameworks */,
 				5A33F33217A67EC20015BF2F /* Resources */,
+				A6E7948281D74E91A28B6290 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,12 +203,44 @@
 				5A33F36617A67F340015BF2F /* Default-568h@2x.png in Resources */,
 				5A33F36717A67F340015BF2F /* Default.png in Resources */,
 				5A33F36817A67F340015BF2F /* Default@2x.png in Resources */,
-				5A33F36917A67F340015BF2F /* SampleViewController.xib in Resources */,
 				5A33F36A17A67F340015BF2F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A6E7948281D74E91A28B6290 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C1B72AABCA48BCB6B0DBDF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A33F33017A67EC20015BF2F /* Sources */ = {
@@ -195,20 +250,14 @@
 				5A33F36B17A67F340015BF2F /* main.m in Sources */,
 				5A33F37117A67F720015BF2F /* AppDelegate.m in Sources */,
 				5A33F37217A67F720015BF2F /* SampleViewController.m in Sources */,
+				5A33F38017A7DDE10015BF2F /* APTableViewController.m in Sources */,
+				5A33F38317A7E9700015BF2F /* Beer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5A33F36017A67F340015BF2F /* SampleViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A33F36117A67F340015BF2F /* en */,
-			);
-			name = SampleViewController.xib;
-			sourceTree = "<group>";
-		};
 		5A33F36217A67F340015BF2F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -245,7 +294,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -269,7 +318,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -278,6 +327,7 @@
 		};
 		5A33F35817A67EC20015BF2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D7E8EB6C1A94D9AA6FE32C1 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APTableViewDemo-Prefix.pch";
@@ -289,6 +339,7 @@
 		};
 		5A33F35917A67EC20015BF2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D7E8EB6C1A94D9AA6FE32C1 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "APTableViewDemo-Prefix.pch";
@@ -317,6 +368,7 @@
 				5A33F35917A67EC20015BF2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,10 @@
 //
 
 #import "SampleViewController.h"
+#import "APTableViewController.h"
 
 @interface SampleViewController ()
+@property (nonatomic, strong) APTableViewController *apViewController;
 
 @end
 
@@ -17,7 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.apViewController = [[APTableViewController alloc]initWithStyle:UITableViewStylePlain];
+    self.apViewController.view.frame = [[UIScreen mainScreen] bounds];
+    [self.view addSubview:self.apViewController.view];
+	
 }
 
 - (void)didReceiveMemoryWarning
