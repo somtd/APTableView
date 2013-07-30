@@ -13,8 +13,8 @@
 - (id)initWithDictionary:(NSDictionary *)dictionary {
     self = [super init];
     if (self) {
-        self.name    = [dictionary objectForKey:@"name"];
-        self.brewery = [dictionary objectForKey:@"brewery_name"];
+        self.name    = dictionary[@"name"];
+        self.brewery = dictionary[@"brewery"][@"name"];
     }
     return self;
 }
