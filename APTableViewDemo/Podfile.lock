@@ -1,10 +1,22 @@
 PODS:
   - AFNetworking (1.3.1)
+  - LUKeychainAccess (1.0.1)
+  - NSData+Base64 (1.0.0)
+  - OAuthCore (0.0.1):
+    - NSData+Base64
+  - TWReverseAuth (0.1.0):
+    - LUKeychainAccess (~> 1.0.1)
+    - OAuthCore (~> 0.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 1.3)
+  - TWReverseAuth (~> 0.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 9ec8aafb9269236a7630bd8d9838ce2ba30fa2a0
+  LUKeychainAccess: 6ba22b2e1eec24f9f2fc9c6a9087d5524a58b1a2
+  NSData+Base64: 36c4e5b6479259c1a68866ccd2a8dd385c9744f7
+  OAuthCore: 4164eec5e28c68f794953446e68f91054ffe570c
+  TWReverseAuth: c0244d8d66ffdadf98137f86aaf649b3cbc97a76
 
 COCOAPODS: 0.22.3

@@ -1,3 +1,4 @@
-platform :ios, '5.1'
+platform :ios, '6.0'
 
 pod 'AFNetworking', '~> 1.3'
+pod 'TWReverseAuth', '~> 0.1'
